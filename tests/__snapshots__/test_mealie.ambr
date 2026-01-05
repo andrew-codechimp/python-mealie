@@ -3949,6 +3949,20 @@
         'quantity': 0.0,
         'unit_id': None,
       }),
+      dict({
+        'checked': False,
+        'disable_amount': None,
+        'display': 'Butter',
+        'food_id': None,
+        'is_food': None,
+        'item_id': 'dd850f47-f748-4fec-9262-fac3f80bd105',
+        'label_id': '2762c711-ae39-4e1c-8c09-1f75cb74ae3e',
+        'list_id': 'a33af640-4704-453c-ab03-a95a393bf1c4',
+        'note': 'Butter',
+        'position': 4,
+        'quantity': 0.0,
+        'unit_id': None,
+      }),
     ]),
   })
 # ---

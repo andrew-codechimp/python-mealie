@@ -34,10 +34,18 @@ class OrderDirection(StrEnum):
     DESCENDING = "desc"
 
 
+class OrderByNullPosition(StrEnum):
+    """OrderByNullPosition type."""
+
+    FIRST = "first"
+    LAST = "last"
+
+
 class ShoppingItemsOrderBy(StrEnum):
     """ShoppingItemOrderBy type."""
 
     POSITION = "position"
+    LABEL_NAME = "label.name"
 
 
 @dataclass

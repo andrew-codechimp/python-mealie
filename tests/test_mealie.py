@@ -465,7 +465,8 @@ async def test_shopping_items(
     shopping_list_id: str = "27edbaab-2ec6-441f-8490-0283ea77585f"
     params: dict[str, Any] = {
         "queryFilter": f"shoppingListId={shopping_list_id}",
-        "orderBy": "position",
+        "orderBy": "label.name,position",
+        "orderByNullPosition": "first",
         "orderDirection": "asc",
         "perPage": -1,
     }

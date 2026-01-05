@@ -99,6 +99,33 @@
             "recipeReferences": [],
             "createdAt": "2024-06-25T11:56:59.656699",
             "updateAt": "2024-06-25T11:56:59.656701"
+        },
+        {
+            "quantity": 0.0,
+            "unit": null,
+            "food": null,
+            "referencedRecipe": null,
+            "note": "Butter",
+            "display": "Butter",
+            "shoppingListId": "a33af640-4704-453c-ab03-a95a393bf1c4",
+            "checked": false,
+            "position": 4,
+            "foodId": null,
+            "labelId": "2762c711-ae39-4e1c-8c09-1f75cb74ae3e",
+            "unitId": null,
+            "extras": {},
+            "id": "dd850f47-f748-4fec-9262-fac3f80bd105",
+            "groupId": "0e7a9673-adff-4adb-a239-4e353c991b31",
+            "householdId": "ba148cfb-bff8-4ec6-8bb4-aefd5f5c029d",
+            "label": {
+                "name": "Dairy Products",
+                "color": "#E0E0E0",
+                "groupId": "0e7a9673-adff-4adb-a239-4e353c991b31",
+                "id": "2762c711-ae39-4e1c-8c09-1f75cb74ae3e"
+            },
+            "recipeReferences": [],
+            "createdAt": "2024-11-29T15:11:07.906012Z",
+            "updatedAt": "2026-01-05T11:49:17.768599Z"
         }
     ],
     "next": null,
