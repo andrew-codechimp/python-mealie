@@ -31,7 +31,6 @@ from aiomealie.models import (
     RecipesResponse,
     ShoppingListsResponse,
     MutateShoppingItem,
-    OrderByNullPosition,
     ShoppingItemsOrderBy,
     ShoppingItemsResponse,
     StartupInfo,
@@ -252,7 +251,6 @@ class MealieClient:
         params["orderBy"] = (
             f"{ShoppingItemsOrderBy.LABEL_NAME},{ShoppingItemsOrderBy.POSITION}"
         )
-        params["orderByNullPosition"] = OrderByNullPosition.FIRST
         params["orderDirection"] = OrderDirection.ASCENDING
         params["perPage"] = -1
         response = await self._get("api/households/shopping/items", params)

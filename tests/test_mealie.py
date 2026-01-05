@@ -466,7 +466,6 @@ async def test_shopping_items(
     params: dict[str, Any] = {
         "queryFilter": f"shoppingListId={shopping_list_id}",
         "orderBy": "label.name,position",
-        "orderByNullPosition": "first",
         "orderDirection": "asc",
         "perPage": -1,
     }
